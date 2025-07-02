@@ -236,8 +236,8 @@ def train_classification(dataset_path):
 
 if __name__ == '__main__':
     # Относительный путь к файлам (файлы в той же директории, что и .py файл)
-    house_prices_path = './house_prices.csv'
-    customer_churn_path = './customer_churn.csv'
+    house_prices_path = 'data/house_prices.csv'
+    customer_churn_path = 'data/customer_churn.csv'
 
     # 1. Тренировка регрессионной модели
     print("Training regression model...")
